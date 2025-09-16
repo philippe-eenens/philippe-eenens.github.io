@@ -42,22 +42,43 @@
 
 <article>
     <h2>Abstract</h2>
-    <p>Your abstract goes here.</p>
+    <p>Abstract ... to be written.</p>
 
     <h2>Introduction</h2>
-    <p>Your introduction goes here.</p>
+    
+<p> Did you know that in France the wedge product is called "determinant"? 
+I am quoting the official programme of mathematics (age 15 or so) from the ministry of education, 
+so all the schools in France must adopt that terminology. 
+</p>
 
-    <h2>Methodology</h2>
-    <p>Your methodology goes here.</p>
+    <h2>The best way to write the equation of a line</h2>
+<p> They use the "determinant" terminology to generate the equation of a line in 2D. 
+This is indeed the easiest and most efficient way to obtain that equation. If a line is given by vector w, 
+then the wedge product of vectors x by w is zero for any vector x on the line. 
+I first saw it in the book of Dorst Mann Fonteyn (with GA terminology of course). 
+</p>
 
-    <h2>Results</h2>
-    <p>Your results go here.</p>
+
+<p> But wait... how do the French find the equation of a line in 3D? Two 3D vectors do not form a square matrix. 
+Yes, I know, you have already guessed what they call it in 3D. But please note the inconsistency. 
+Students are taught meaningless tricks, and the connection between the 2D and 3D methods is lost. 
+</p>
+
+<p> Moreover, matrices and determinants are not part of the curriculum, at least not at that age, 
+so there is no particular reason to use the word "determinant". 
+</p>
+
+
+<p></p>
 
     <h2>Conclusion</h2>
-    <p>Your conclusion goes here.</p>
+    <p> This is a clear example that GA is both urgently needed 
+and totally appropriate for young students at pre-university level.
+</p>
+
 </article>
 <footer>
-    <p>© 2023 Your Name. All rights reserved.</p>
+    <p>© 2025 Philippe Eenens. All rights reserved.</p>
 </footer>
 
 </body>
