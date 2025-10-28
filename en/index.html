@@ -16,15 +16,31 @@
     color: #222;
   }
 
+  nav {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
   h1 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 28px;
   }
 
   h2 {
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 22px;
+    margin-top: 25px;
     color: #333;
   }
 
@@ -38,32 +54,41 @@
 
   .btn {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 6px 12px;
     margin-top: 10px;
-    background: #007acc;
-    color: #fff;
+    background: #e8e8e8;
+    color: #000;
     border-radius: 4px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
+    border: 1px solid #ccc;
   }
 
   .btn:hover {
-    background: #005fa3;
+    background: #dcdcdc;
   }
 </style>
 </head>
 
 <body>
 
-<h1>Lecture notes on linear algebra</h1>
+<nav>
+  <a href="/">Home</a> |
+  <a href="/en/">English</a> |
+  <a href="/es/">Español</a> |
+  <a href="/fr/">Français</a>
+</nav>
 
+<h1>My blog on teaching algebra and more</h1>
+
+<h2>Lecture notes on linear algebra</h2>
 <p>The chapter on rotations will be uploaded here on December 10, 2025.<br>
 Stay tune!</p>
 
 <div class="card">
   <h2>Teaching geometric algebra before university</h2>
   <p>Is it possible? Is it useful?</p>
-  <a class="btn" href="#">Read more</a>
+  <a class="btn" href="/article01.html">Read more</a>
 </div>
 
 <div class="card">
@@ -84,4 +109,3 @@ Stay tune!</p>
 
 </body>
 </html>
-
